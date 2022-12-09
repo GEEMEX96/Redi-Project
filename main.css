@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color:#d2d2d2 ;
+}
+#films{
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  
+    
+}
+.card {
+  width: 280px;
+  height: auto;
+  border: 2px solid #ae98b7;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #a0a0a0;
+}
+.thumbnail {
+  width: 280px;
+  display: block;
+  margin: auto;
+  padding: 5%;
+}
+.card-title{
+    text-align: center;
+}
+.card-rate{
+    float: right;
+}
+.card-text{
+  text-align: center;
+}
+.readmore{
+  text-align: center;
+  display: block;
+  color: black;
+  background-color: #9f71b1;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.single-card{
+ margin: 5px;
+}
+.single-title{
+  text-align: center;
+
+}
+
+.single-thumbnail{
+  width: 300px;
+  float: left;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.film-info{ 
+  
+  border: 2px solid #ae98b7;
+  border-radius: 10px;
+  margin: 1%;
+  background-color: #272727;
+  display: flex;
+  color: #d2d2d2;
+  font-size: 22px;
+  line-height: 2rem;
+  text-align: left;
+}
+.more-info{
+  margin: inherit;
+} 
+
+header {
+    overflow: hidden;
+    background-color: #806889;
+    padding: 20px 10px;
+  }
+.logo{
+    width: 150px;
+}
+
+nav {
+    float: right;
+  }
+
+nav a {
+    
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 5;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #ae98b7;
+    color: black;
+  }
+
+footer{
+  background-color: #806889;
+  padding: 20px 10px;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+
